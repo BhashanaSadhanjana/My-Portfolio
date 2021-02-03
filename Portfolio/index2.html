@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<style>
+    .About-me{
+
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: white;
+
+    }
+    #about>h2{
+
+        position: absolute;
+        margin: auto;
+        left: 50%;
+        transform: translate(-50%);
+        padding-top: 48px;
+        font-size:  50px;
+        font-family: 'Original Surfer', cursive;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+
+    h2>span{
+
+        color: dodgerblue;
+        display: inline-block;
+        animation: text 1s ease forwards;
+        opacity: 0;
+    }
+
+    h2>span:nth-child(1){
+
+        animation-delay: 0.1s;
+        color: #f7174c;
+    }
+
+    h2>span:nth-child(2){
+
+        animation-delay: 0.2s;
+        color: dodgerblue;
+    }
+
+    h2>span:nth-child(3){
+
+        animation-delay: 0.3s;
+        color: darkorchid;
+    }
+
+    h2>span:nth-child(4){
+
+        animation-delay: 0.4s;
+        color: gray;
+    }
+
+    h2>span:nth-child(5){
+
+        animation-delay: 0.5s;
+        color: violet;
+    }
+
+    h2>span:nth-child(6){
+
+        animation-delay: 0.6s;
+        color: cornflowerblue;
+    }
+
+    h2>span:nth-child(7){
+
+        animation-delay: 0.7s;
+        color: gold;
+    }
+
+    @keyframes text {
+
+        0%{
+            transform: translateY(-120px);
+            color: #f83a66;
+
+        }100%{
+
+             transform: translateY(0px);
+             opacity: 1;
+         }
+
+    }
+
+    #who-i-am>h6{
+
+        position: absolute;
+        margin: auto;
+        left: 50%;
+        transform: translate(-50%);
+        color: red;
+        padding-top: 110px;
+        font-size: large;
+        font-family: 'Original Surfer', cursive;
+
+    }
+
+    #line-left{
+
+        position: absolute;
+        margin: auto;
+        width: 31px;
+        height: 5px;
+        background-color: black;
+        top: 121px;
+        right: 823px;
+        border-radius: 100px;
+
+    }
+
+    #line-right{
+
+        position: absolute;
+        margin: auto;
+        width: 31px;
+        height: 5px;
+        background-color: black;
+        top: 121px;
+        right: 680px;
+    }
+</style>
+
+</section>
+<section class="About-me" id="About-me">
+    <div id="about">
+        <h2>
+            <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span>
+            <span>m</span><span>e</span>
+        </h2>
+    </div>
+    <div id="who-i-am">
+        <h6>who I'am</h6>
+    </div>
+    <div id="line-left"></div>
+    <div id="line-right"></div>
+
+</section>
+
+</body>
+</html>
